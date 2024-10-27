@@ -33,13 +33,6 @@ private Long id;
 @NaturalId
 private String name;
 
-
-@Override
-public List<String> getTableHeaderNames() {
-throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-}
-
-
 @Override
 public String updatedByColumn() {
 return "";
