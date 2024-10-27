@@ -6,7 +6,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@EnableFeignClients(basePackages = "com.api.open.crud.api.feignclient") // Specify the package containing your Feign clients
+@EnableFeignClients(basePackages = "com.open.feign_client.inter_process_communication") // Specify the package containing your Feign clients
 // @ComponentScan(basePackages = "com.api.open.crud.api")
 public class FeignMicroApplication {
 
